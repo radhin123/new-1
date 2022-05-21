@@ -702,7 +702,7 @@ const fdanz = {
 //Buat fake info bot
 //DI UBAH YATIM
 danzrun = process.uptime() 
-           Ramdani.setStatus(`${namabot} Aktif Selama ${(danzrun)} © Creator By Ramdani Official`).catch((_)=>_); //DI UBAH YATIMM
+           Ramdani.setStatus(`${namabot} Aktif Selama ${(danzrun)} © Creator By Radhin Al haady`).catch((_)=>_); //DI UBAH YATIMM
           settingstatus = new Date() * 1;
 const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
 				let d = new Date
@@ -811,7 +811,7 @@ if (!isRegister) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(mess.wait)
 teks = `*Hallo Kak ${pushname}👋 ${ucapanWaktu}*
-*Saya ${namabot},* Saya adalah bot WhatsApp yg mungkin bisa menghibur/mengembalikan mot anda, jika anda tidak terhibur, maka jangan salahkan saya, bot ini menggunakan script dari https://youtube.com/c/RamdaniOfficial *don't forget subscribe!!!*`
+*Saya ${namabot},* Saya adalah bot WhatsApp yg mungkin bisa menghibur/mengembalikan mood anda, jika anda tidak terhibur, maka jangan salahkan saya,*`
 img = fs.readFileSync(`./media/picture/${randompoto}.jpg`)
 footer = `${wmtext}`
 but = [{ buttonId: `allmenu`, buttonText: { displayText: 'Allmenu' }, type: 1 },{ buttonId: `select`, buttonText: { displayText: 'Select Menu' }, type: 1 }]
@@ -957,11 +957,11 @@ if (!isRegister) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Radhin Al haady',
  description: `Hai Kak ${pushname}👋, Silahkan Pilih Menunya Disini\nJangan Spam Ya Kak, Kasih Jeda 5 Detik!!!`,
  sections: [
                      {
-                      "title": `Jangan Lupa Donasi Tod`,
+                      "title": `Jangan Lupa Donasi kak 😆`,
  rows: [
                             {                         
                               "title": "Credits",
@@ -980,67 +980,67 @@ if (isBanned) return freply(mess.banned)
                            },
                            {                         
                               "title": "All Menu",
-                              "description" :"",
+                              "description" :"Menampilkan semua menu",
                               "rowId": `allmenu`
                            },
                            {                         
                               "title": "Download Menu",
-                              "description" :"",
+                              "description" :"Menu downloader",
                               "rowId": `downloadmenu`
                            },
                            {                         
                               "title": "Asupan Menu",
-                              "description" :"",
+                              "description" :"Menu buat coli",
                               "rowId": `asupanmenu`
                            },
                            {                         
                               "title": "Cecan Menu",
-                              "description" :"",
+                              "description" :"hemm",
                               "rowId": `cecanmenu`
                            },
                            {                         
                               "title": "Nsfw Menu",
-                              "description" :"",
+                              "description" :"Menu anime echi",
                               "rowId": `nsfwmenu`
                            },
                            {                         
                               "title": "Sticker Menu",
-                              "description" :"",
+                              "description" :"Menu membuat sticker",
                               "rowId": `stickermenu`
                            },
                            {                         
                               "title": "Kode Menu",
-                              "description" :"",
+                              "description" :"heh",
                               "rowId": `kodemenu`
                            },
                            {                         
                               "title": "Vn Menu",
-                              "description" :"",
+                              "description" :"Menu buat vn",
                               "rowId": `vnmenu`
                            },
                            {                         
                               "title": "Hiburan Menu",
-                              "description" :"",
+                              "description" :"yey 🎉",
                               "rowId": `hiburanmenu`
                            },
                            {                         
                               "title": "Group Menu",
-                              "description" :"",
+                              "description" :"Menu khusus grup",
                               "rowId": `groupmenu`
                            },
                            {                         
                               "title": "Converter Menu",
-                              "description" :"",
+                              "description" :"mengubah",
                               "rowId": `convertermenu`
                            },
                            {                         
                               "title": "Tools Menu",
-                              "description" :"",
+                              "description" :"tols ny kak",
                               "rowId": `toolsmenu`
                            },
                            {                         
                               "title": "Owner Menu",
-                              "description" :"",
+                              "description" :"Menu ini khusus owner ya",
                               "rowId": `ownermenu`
                            },
                         ]
@@ -1118,7 +1118,7 @@ const ramdani = "6289512545999@s.whatsapp.net"
 const yudha = "6282287486762@s.whatsapp.net"
 const saipul = "6288279268363@s.whatsapp.net"
 const hardianto = "62895325697662@s.whatsapp.net"
-
+const L©® = "6282311619167@s.whatsapp.net"
 textnye = `*BIG THANKS TO*
 
 *Creator*
@@ -1136,6 +1136,8 @@ textnye = `*BIG THANKS TO*
 *Rest Api*
 • *Ramdani Official* : https://api-ramdanifficial.herokuapp.com
 • *Hardianto Chan* : https://hardianto.xyz
+
+Remake by @${L©®.split("@")[0]}
 `
 Ramdani.sendMessage(from, { contentText: `${textnye}`, 
 footerText: `${wmtext}`,
@@ -1169,7 +1171,7 @@ case 'youtube':
 case 'ytb':
 if (!isRegister) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
-freply(`*nih channel youtube owner, jan lupa subscribe ya*\nhttps://youtube.com/c/RamdaniOfficial`)
+freply(`*nih channel youtube creator, jan lupa subscribe ya*\nhttps://youtube.com/c/RamdaniOfficial`)
 break
 //INSTAGRAM
 case 'intagram':
@@ -1224,7 +1226,7 @@ break
        if (isBanned) return freply(mess.banned)
               timestampe = speed();
               latensie = speed() - timestampe
-              freply(`「 *RAMDANI BOTZ* 」\nMerespon dalam ${latensie.toFixed(4)} Sec 💬`)
+              freply(`「 *LeviathanV2* 」\nMerespon dalam ${latensie.toFixed(4)} Sec 💬`)
               break
       case 'botstat': 
               if (!isRegister) return freply(mess.regist)
@@ -1642,7 +1644,7 @@ case 'kodebahasa':
 					ranm = getRandom('.mp3')
 					rano = getRandom('.ogg')
 					dtt.length > 500
-					? freply('Textnya kebanyakan setan!! 😤')
+					? freply('Textnya kebanyakan Pler!! 😤')
 					: gtts.save(ranm, dtt, function() {
 					exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
 							fs.unlinkSync(ranm)
