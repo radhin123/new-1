@@ -109,7 +109,7 @@ wmtroli = setting.WmTroli
 wmtext = setting.WmText
 
 //REPLY
-done = "_succeed, dont forget to subscribe_ : https://youtube.com/c/RamdaniOfficial",
+done = "_succeed, dont forget to folow_ : https://github.com/radhin123",
 
 //TRUE AND FALSE
 public = true
@@ -305,7 +305,7 @@ module.exports = Ramdani = async (Ramdani, mek) => {
         const timeWita = moment().tz('Asia/Jayapura').format('HH:mm:ss')
         
         const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = Ramdani.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ","listType": "SINGLE_SELECT","sections": list}}, {})
+            let po = Ramdani.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "© ʙʏ Leviathanᴀʟ","listType": "SINGLE_SELECT","sections": list}}, {})
             return Ramdani.relayWAMessage(po, {waitForAck: true})
         }
         const isUrl = (url) => {
