@@ -42,8 +42,7 @@
     "qrcode": "^1.4.4",
     "qs": "^1.0.0",
     "cheerio": "^1.0.0-rc.10",
-    "hxz-api": "^1.0.1",
-    "yt-search": "^2.10.3"
+    "hxz-api": "^1.0.1"
   },
   "repository": {
     "type": "git",
